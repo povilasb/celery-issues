@@ -7,7 +7,7 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-celery = { git = "https://github.com/celery/celery/", rev="7126fb6" }
+celery = "4.4.7"
 
 [tool.poetry.dev-dependencies]
 

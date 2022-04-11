@@ -16,10 +16,12 @@ Celery versions:
 
 ## How to run this?
 
-1. `docker-compose up -d rabbitmq`
-2. `poetry install`
-3. `./worker.sh`
-4. `poetry run python -m celery_issues.client`
+1. `git fetch origin 4.4.7`
+2. `git checkout 4.4.7`
+3. `docker-compose up -d rabbitmq`
+4. `poetry install`
+5. `./worker.sh`
+6. `poetry run python -m celery_issues.client`
 
 ## The issue explained
 
